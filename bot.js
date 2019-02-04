@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const prefix = "F"
+const prefix = "R"
 
 client.on('message', message =>{
     let args = message.content.split(' ');
