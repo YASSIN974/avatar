@@ -4,7 +4,7 @@ const prefix = "F"
 
 client.on('message', message =>{
     let args = message.content.split(' ');
-    let prefix = 'F'; //تقدر تغير البرفكس
+    let prefix = 'R'; //تقدر تغير البرفكس
     
     if(args[0] === `${prefix}a`){
         let mentions = message.mentions.members.first()
