@@ -6,7 +6,7 @@ client.on('message', message =>{
     let args = message.content.split(' ');
     let prefix = 'R'; //تقدر تغير البرفكس
     
-    if(args[0] === `${prefix}a`){
+    if(args[0] === `${prefix}avatar`){
         let mentions = message.mentions.members.first()
         if(!mentions) {
           let sicon = message.author.avatarURL
